@@ -165,16 +165,16 @@ body p {
 }
 
 .linkedin-btn:hover {
-  -webkit-box-shadow: 0px 0px 36px 0px rgba(255, 240, 23, 1);
-  -moz-box-shadow: 0px 0px 36px 0px rgba(255, 240, 23, 1);
-  box-shadow: 0px 0px 36px 0px rgba(255, 240, 23, 1);
+  -webkit-box-shadow: 0px 0px 10px 0px rgba(255, 240, 23, 1);
+  -moz-box-shadow: 0px 0px 10px 0px rgba(255, 240, 23, 1);
+  box-shadow: 0px 0px 10px 0px rgba(255, 240, 23, 1);
   transition: 0.3s;
 }
 
 .web-btn:hover {
-  -webkit-box-shadow: 0px 0px 36px 0px rgba(255, 240, 23, 1);
-  -moz-box-shadow: 0px 0px 36px 0px rgba(255, 240, 23, 1);
-  box-shadow: 0px 0px 36px 0px rgba(255, 240, 23, 1);
+  -webkit-box-shadow: 0px 0px 10px 0px rgba(255, 240, 23, 1);
+  -moz-box-shadow: 0px 0px 10px 0px rgba(255, 240, 23, 1);
+  box-shadow: 0px 0px 10px 0px rgba(255, 240, 23, 1);
   transition: 0.3s;
 }
 
@@ -328,9 +328,9 @@ body p {
 }
 
 .header-el-btn:hover {
-  -webkit-box-shadow: 0px 0px 36px 0px rgba(255, 240, 23, 1);
-  -moz-box-shadow: 0px 0px 36px 0px rgba(255, 240, 23, 1);
-  box-shadow: 0px 0px 36px 0px rgba(255, 240, 23, 1);
+  -webkit-box-shadow: 0px 0px 10px 0px rgba(255, 240, 23, 1);
+  -moz-box-shadow: 0px 0px 10px 0px rgba(255, 240, 23, 1);
+  box-shadow: 0px 0px 10px 0px rgba(255, 240, 23, 1);
   transition: 0.3s;
 }
 
@@ -345,7 +345,7 @@ body p {
 }
 
 .service-el {
-  margin-top: 4em;
+  margin-top: 1em;
 }
 
 .service-card {
@@ -384,7 +384,7 @@ body p {
 /* **************** */
 
 .package-grid {
-  margin-top: 2em;
+  margin-top: 1em;
   display: grid;
   grid-template-columns: repeat(1, 1fr);
 }
@@ -473,7 +473,7 @@ body p {
 /* ************ */
 
 .next-grid {
-  margin-top: 2em;
+  margin-top: 1em;
   display: grid;
   grid-template-columns: repeat(1, 1fr);
 }
@@ -556,21 +556,22 @@ body p {
 }
 
 .btn:hover {
-  -webkit-box-shadow: 0px 0px 36px 0px rgba(255, 240, 23, 1);
-  -moz-box-shadow: 0px 0px 36px 0px rgba(255, 240, 23, 1);
-  box-shadow: 0px 0px 36px 0px rgba(255, 240, 23, 1);
+  -webkit-box-shadow: 0px 0px 10px 0px rgba(255, 240, 23, 1);
+  -moz-box-shadow: 0px 0px 10px 0px rgba(255, 240, 23, 1);
+  box-shadow: 0px 0px 10px 0px rgba(255, 240, 23, 1);
   transition: 0.3s;
 }
 
-.card--badge {
+.glow-h2 {
+  margin-top: 0;
+  color: #f9c982;
+  cursor: pointer;
+}
+
+.subheader {
   margin-top: 1em;
-  width: 55%;
-  color: white;
-  background-color: red;
-  padding: 1em;
-  padding: 5px 7px;
-  border-radius: 2px;
-  font-weight: bold;
+  font-size: 3rem;
+  color: var(--logo-color);
 }
 
 /* ********************* */

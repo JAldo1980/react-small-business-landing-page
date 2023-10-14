@@ -1,6 +1,6 @@
 import "./index.css";
 
-export default function Pricing(props) {
+export default function WebPricing(props) {
   let badgeText;
 
   return (
@@ -11,7 +11,6 @@ export default function Pricing(props) {
           <h3>£ {props.price}</h3>
           <p>{props.text}</p>
           <button className="btn">Order</button>
-          {badgeText && <div className="card--badge">{badgeText}</div>}
         </div>
       </div>
     </div>
