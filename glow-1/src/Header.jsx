@@ -24,7 +24,7 @@ export default function Header() {
       <div className="inner-header-image-el">
         <img
           className="james-hero-img"
-          src="/public/placeholder-3.png"
+          src="/public/glow-hero-image.png"
           alt="james alderman"
         />
       </div>

@@ -106,6 +106,10 @@ body p {
   font-size: 1.1rem;
 }
 
+ul li {
+  font-size: 1.1rem;
+}
+
 .container {
   margin: 0 auto;
   max-width: 1400px;
@@ -379,6 +383,10 @@ body p {
   color: var(--p-global);
 }
 
+ul li {
+  margin-top: 1em;
+}
+
 /* **************** */
 /* PACKAGES STYLING */
 /* **************** */
@@ -516,14 +524,40 @@ body p {
   color: var(--p-global);
 }
 
+.input-el-holder {
+  margin-top: 2em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.newsletter-el input {
+  padding: 1em;
+  border: none;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  width: 80%;
+}
+
+.input-btn {
+  padding: 1em;
+  border: none;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
 /* ***************** */
 /* FOOTER EL STYLING */
 /* ***************** */
 
 .footer-el {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
   margin-top: 4em;
   background-color: var(--package-cards);
-  padding: 1em;
+  padding: 1.5em;
+  color: var(--p-global);
 }
 
 .footer-el p {
@@ -572,6 +606,17 @@ body p {
   margin-top: 1em;
   font-size: 3rem;
   color: var(--logo-color);
+}
+
+.col-2 h4,
+.col-3 h4 {
+  margin-top: 0;
+}
+
+.input-btn {
+  cursor: pointer;
+  background-color: var(--btn-global);
+  color: white;
 }
 
 /* ********************* */
