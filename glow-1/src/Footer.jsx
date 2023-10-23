@@ -20,7 +20,10 @@ export default function Footer() {
         <ul>
           <li>Contact: email@email.com</li>
           <li>Phone: 080889878761</li>
-          <li>Subscribe to our newsletter</li>
+          <li>
+            Follow James here{" "}
+            <a href="https://www.linkedin.com/in/jamespalderman/">LinkedIn</a>
+          </li>
         </ul>
       </div>
     </div>

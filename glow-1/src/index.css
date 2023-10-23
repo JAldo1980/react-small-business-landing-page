@@ -505,6 +505,10 @@ ul li {
   color: var(--global-header);
 }
 
+.next-html {
+  color: var(--p-global);
+}
+
 /* ****************** */
 /* NEWSLETTER STYLING */
 /* ****************** */
@@ -617,6 +621,10 @@ ul li {
   cursor: pointer;
   background-color: var(--btn-global);
   color: white;
+}
+
+a {
+  color: #0377b5;
 }
 
 /* ********************* */
