@@ -565,8 +565,11 @@ ul li {
 }
 
 .footer-el p {
-  text-align: center;
   color: var(--p-global);
+}
+
+.footer-el ul li {
+  list-style: none;
 }
 
 .inner-header-text-el h1,

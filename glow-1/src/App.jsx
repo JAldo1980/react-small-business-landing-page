@@ -34,6 +34,7 @@ export default function App() {
       <Header />
       <ServiceHead />
       <Services />
+
       <PackageHead />
       <section className="package-grid">{LinkedInElements}</section>
       <section className="pricing-grid">{WebElements}</section>

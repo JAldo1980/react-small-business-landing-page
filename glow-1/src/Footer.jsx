@@ -9,22 +9,26 @@ export default function Footer() {
       </div>
       <div className="col-2">
         <h4>Useful links</h4>
-        <ul>
-          <li>Contact: email@email.com</li>
-          <li>Phone: 080889878761</li>
-          <li>Subscribe to our newsletter</li>
-        </ul>
+
+        <p>
+          Our Blog: <a href="#">Read</a>
+        </p>
+        <p>
+          <a href="#">Meet the Team</a>
+        </p>
+        <p>
+          <a href="#">Careers</a>
+        </p>
       </div>
       <div className="col-3">
         <h4>Useful links</h4>
-        <ul>
-          <li>Contact: email@email.com</li>
-          <li>Phone: 080889878761</li>
-          <li>
-            Follow James here{" "}
-            <a href="https://www.linkedin.com/in/jamespalderman/">LinkedIn</a>
-          </li>
-        </ul>
+
+        <p>Email: james@glow.com</p>
+        <p>Phone: 080889878761</p>
+        <p>
+          Follow James here{" "}
+          <a href="https://www.linkedin.com/in/jamespalderman/">LinkedIn</a>
+        </p>
       </div>
     </div>
   );

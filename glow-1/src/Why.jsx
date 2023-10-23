@@ -22,7 +22,6 @@ export default function Why() {
             underlining your expertise and credibility for potential clients,
             partners, and employers.
           </p>
-          <button className="btn">Order</button>
         </div>
       </div>
     </div>

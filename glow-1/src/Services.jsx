@@ -1,10 +1,17 @@
 import "./index.css";
 
 export default function Services() {
+  // the below function will allow for smooth scroll to the specific service (look at onClicks attached to the buttons below)
+  function handleScrollToSection(id) {
+    const element = document.getElementById(id);
+    if (element) {
+      element.scrollIntoView({ behavior: "smooth" });
+    }
+  }
   return (
     <div className="service-el">
       <div className="inner-service-grid">
-        <div className="service-card linkedIn-card">
+        <div id="linkedin-scroll" className="service-card linkedIn-card">
           <h2>LinkedIn</h2>
           <p>
             Elevate Your LinkedIn Presence, redefining your LinkedIn profile for
@@ -40,9 +47,14 @@ export default function Services() {
             Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ex in sit
             vel sed voluptatum nesciunt quod quidem, excepturi iste eius.
           </p>
-          <button className="btn">LinkedIn</button>
+          <button
+            className="btn"
+            onClick={() => handleScrollToSection("linkedin-price-scroll")}
+          >
+            Explore Packages
+          </button>
         </div>
-        <div className="service-card website-card">
+        <div id="website-scroll" className="service-card website-card">
           <h2>Websites</h2>
           <p>
             Elevate Your Online Presence with a Single Page Professional
@@ -63,7 +75,12 @@ export default function Services() {
             that complements your social media presence, guiding your new
             traffic to success.
           </p>
-          <button className="btn">Websites</button>
+          <button
+            className="btn"
+            onClick={() => handleScrollToSection("web-price-scroll")}
+          >
+            Explore Packages
+          </button>
         </div>
       </div>
     </div>

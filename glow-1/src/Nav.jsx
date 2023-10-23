@@ -3,6 +3,12 @@ import "./index.css";
 import Toggle from "./Toggle";
 
 export default function Nav() {
+  function handleScrollToSection(id) {
+    const element = document.getElementById(id);
+    if (element) {
+      element.scrollIntoView({ behavior: "smooth" });
+    }
+  }
   const [isActive, setIsActive] = useState(false);
 
   function handleClick() {
@@ -24,10 +30,16 @@ export default function Nav() {
           </div>
         </div>
         <div className="desktop-btn-el">
-          <button className="nav-btn linkedin-btn" id="linkedin-top-btn">
+          <button
+            className="nav-btn linkedin-btn"
+            onClick={() => handleScrollToSection("linkedin-scroll")}
+          >
             LinkedIn Optimisation
           </button>
-          <button className="nav-btn web-btn" id="website-top-btn">
+          <button
+            className="nav-btn web-btn"
+            onClick={() => handleScrollToSection("website-scroll")}
+          >
             Websites
           </button>
         </div>
