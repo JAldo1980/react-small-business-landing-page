@@ -302,6 +302,7 @@ ul li {
 
 .headerOne-light {
   color: #38434f;
+  text-shadow: 2px 2px 8px #38434f;
 }
 
 .inner-header-text-el p {
@@ -552,7 +553,7 @@ ul li {
 .newsletter-el {
   margin-top: 4em;
   background-color: var(--package-cards);
-  padding: 1em;
+  padding: 1em 1em 2em 1em;
   border-radius: 10px;
 }
 
@@ -598,6 +599,7 @@ ul li {
   background-color: var(--package-cards);
   padding: 1.5em;
   color: var(--p-global);
+  border-radius: 10px;
 }
 
 .footer-el p {
