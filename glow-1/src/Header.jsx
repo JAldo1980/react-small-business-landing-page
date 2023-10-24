@@ -1,10 +1,11 @@
 import "./index.css";
 
-export default function Header() {
+export default function Header({ isActive }) {
+  const headerOneClassName = isActive ? "headerOne-dark" : "headerOne-light";
   return (
     <div className="header-el">
       <div className="inner-header-text-el">
-        <h1>
+        <h1 className={headerOneClassName}>
           <span>GLOW</span> up
           <br></br>Your Profile
         </h1>

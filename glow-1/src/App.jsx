@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import Nav from "./Nav";
 import Header from "./Header";
 import Services from "./Services";
@@ -15,8 +15,15 @@ import ServiceHead from "./ServiceHead";
 import PackageHead from "./PackageHead";
 import NextHead from "./NextHead";
 import OrderBtn from "./OrderBtn";
+import Toggle from "./Toggle";
 
 export default function App() {
+  const [isActive, setIsActive] = useState(false); // Initialize the state in the App component
+
+  const handleToggle = () => {
+    setIsActive(!isActive); // Update the state when the toggle button is clicked
+  };
+
   const LinkedInElements = LinkedinPackageData.map((item) => {
     return <LinkedInPricing key={item.id} {...item} />;
   });
@@ -32,7 +39,8 @@ export default function App() {
   return (
     <React.StrictMode>
       <Nav />
-      <Header />
+      <Toggle isActive={isActive} onToggle={handleToggle} />
+      <Header isActive={isActive} />
       <ServiceHead />
       <Services />
       <PackageHead />

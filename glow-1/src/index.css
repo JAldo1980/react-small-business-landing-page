@@ -295,14 +295,13 @@ ul li {
   display: none;
 }
 
-.inner-header-text-el h1 {
+.headerOne-dark {
   color: var(--global-header);
   font-size: 3rem;
 }
 
-.inner-header-text-el h1 span {
-  color: var(--global-header);
-  /* text-shadow: 0px 0px 21px rgba(255, 240, 23, 1); */
+.headerOne-light {
+  color: #38434f;
 }
 
 .inner-header-text-el p {
