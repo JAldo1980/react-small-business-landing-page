@@ -6,6 +6,8 @@ function Toggle() {
   function handleClick() {
     setIsActive(!isActive);
     document.body.style.backgroundColor = isActive ? "" : "white";
+
+    document.h1.style.backgroundColor = isActive ? "" : "black";
   }
 
   // Determine the text based on isActive

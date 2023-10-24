@@ -14,6 +14,7 @@ import Footer from "./Footer";
 import ServiceHead from "./ServiceHead";
 import PackageHead from "./PackageHead";
 import NextHead from "./NextHead";
+import OrderBtn from "./OrderBtn";
 
 export default function App() {
   const LinkedInElements = LinkedinPackageData.map((item) => {
@@ -34,10 +35,11 @@ export default function App() {
       <Header />
       <ServiceHead />
       <Services />
-
       <PackageHead />
       <section className="package-grid">{LinkedInElements}</section>
+      <OrderBtn />
       <section className="pricing-grid">{WebElements}</section>
+      <OrderBtn />
       <Why />
       <NextHead />
       <section className="next-grid">{nextElements}</section>
