@@ -2,14 +2,14 @@ import React from "react";
 
 const BronzePackage = () => {
   return (
-    <div>
+    <div className="package-html-styles">
       <ul>
         <li>
           <span>Profile Critique:</span> A comprehensive review of your existing
           LinkedIn profile with actionable feedback.
         </li>
         <li>
-          <span>Keyword Optimization:</span> Strategic placement of relevant
+          <span>Keyword Optimisation:</span> Strategic placement of relevant
           keywords to improve your profile's visibility.
         </li>
         <li>
@@ -35,11 +35,11 @@ const BronzePackage = () => {
 
 const SilverPackage = () => {
   return (
-    <div>
+    <div className="package-html-styles">
       <p>Everything in the Bronze Package, plus:</p>
       <ul>
         <li>
-          <span>Profile Optimization:</span> An in-depth overhaul of your
+          <span>Profile Optimisation:</span> An in-depth overhaul of your
           LinkedIn profile, including rewriting the About section and updating
           your experience.
         </li>
@@ -66,7 +66,7 @@ const SilverPackage = () => {
 
 const GoldPackage = () => {
   return (
-    <div>
+    <div className="package-html-styles">
       <p>Everything in the Silver Package, plus:</p>
       <ul>
         <li>

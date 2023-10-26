@@ -2,7 +2,7 @@ import React from "react";
 
 const BronzeWebPackage = () => {
   return (
-    <div>
+    <div className="package-html-styles">
       <ul>
         <li>
           <span>Profile Critique:</span> A comprehensive review of your existing
@@ -35,7 +35,7 @@ const BronzeWebPackage = () => {
 
 const SilverWebPackage = () => {
   return (
-    <div>
+    <div className="package-html-styles">
       <p>Everything in the Bronze Package, plus:</p>
       <ul>
         <li>
@@ -66,7 +66,7 @@ const SilverWebPackage = () => {
 
 const GoldWebPackage = () => {
   return (
-    <div>
+    <div className="package-html-styles">
       <p>Everything in the Silver Package, plus:</p>
       <ul>
         <li>

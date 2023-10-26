@@ -19,34 +19,43 @@ export default function Services() {
           </p>
           <ul>
             <li>
-              Transformative Profile Picture: Say goodbye to dull photos with a
-              fresh, engaging image that captures attention.
+              <span className="service-text-style">
+                Transformative Profile Picture:
+              </span>{" "}
+              Say goodbye to dull photos with a fresh, engaging image that
+              captures attention.
             </li>
             <li>
-              Custom Banner Design: Make a stunning first impression with a
-              personalized banner that speaks to your unique brand.
+              <span className="service-text-style">Custom Banner Design:</span>{" "}
+              Make a stunning first impression with a personalized banner that
+              speaks to your unique brand.
             </li>
             <li>
-              Tailored Bio: Craft a compelling and strategic bio that highlights
-              your strengths and goals.
+              <span className="service-text-style">Tailored Bio:</span> Craft a
+              compelling and strategic bio that highlights your strengths and
+              goals.
             </li>
             <li>
-              Keyword Optimization: Boost your profile's visibility with
-              strategically placed keywords that resonate with your audience.
+              <span className="service-text-style">Keyword Optimization:</span>{" "}
+              Boost your profile's visibility with strategically placed keywords
+              that resonate with your audience.
             </li>
             <li>
-              Revamped "About" Section: Tell your story in a captivating way
-              that draws in connections and prospects.
+              <span className="service-text-style">
+                Revamped "About" Section:
+              </span>{" "}
+              Tell your story in a captivating way that draws in connections and
+              prospects.
             </li>
             <li>
-              Featured Post Graphics: Showcase your top content with
-              eye-catching graphics that make your profile shine.
+              <span className="service-text-style">
+                Featured Post Graphics:
+              </span>{" "}
+              Showcase your top content with eye-catching graphics that make
+              your profile shine.
             </li>
           </ul>
-          <p>
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ex in sit
-            vel sed voluptatum nesciunt quod quidem, excepturi iste eius.
-          </p>
+
           <button
             className="btn"
             onClick={() => handleScrollToSection("linkedin-price-scroll")}
@@ -63,11 +72,27 @@ export default function Services() {
             traffic.
           </p>
           <ul>
-            <li>Innovative Concept Creation</li>
-            <li>Sleek Single-Page Design and Branding</li>
-            <li>Striking Imagery</li>
-            <li>Compelling Copywriting</li>
-            <li>Reliable Hosting (Priced at £200/year)</li>
+            <li>
+              <span className="service-text-style">
+                Innovative Concept Creation
+              </span>
+            </li>
+            <li>
+              <span className="service-text-style">
+                Sleek Single-Page Design and Branding
+              </span>
+            </li>
+            <li>
+              <span className="service-text-style">Striking Imagery</span>
+            </li>
+            <li>
+              <span className="service-text-style">Compelling Copywriting</span>
+            </li>
+            <li>
+              <span className="service-text-style">
+                Reliable Hosting (Priced at £200/year)
+              </span>
+            </li>
           </ul>
           <p>
             Don't let your online presence lack a cohesive anchor point.

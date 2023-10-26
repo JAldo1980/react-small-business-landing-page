@@ -127,10 +127,11 @@ ul li {
   align-items: center;
 }
 
-.nav-bar-el h1 {
+h1 {
   margin-top: 0;
   color: #f9c982;
   cursor: pointer;
+  line-height: 1.1;
 }
 
 .desktop-btn-el {
@@ -190,6 +191,7 @@ ul li {
 /* DarkMode styling  */
 
 .toggle-flex {
+  margin-top: 1em;
   display: none;
   justify-content: flex-end;
   align-items: center;
@@ -207,7 +209,7 @@ ul li {
 }
 
 .inner-toggle {
-  margin-top: 0.04em;
+  margin-top: 0.05em;
   margin-left: 0.09em;
   background-color: var(--logo-color);
   height: 20px;
@@ -289,6 +291,11 @@ ul li {
   display: grid;
   grid-template-columns: repeat(1, 1fr);
   gap: 2em;
+}
+
+.header-el h1 {
+  font-size: 4rem;
+  color: var(--global-header);
 }
 
 .inner-header-image-el {
@@ -387,6 +394,10 @@ ul li {
   margin-top: 1em;
 }
 
+.service-text-style {
+  color: var(--global-header);
+}
+
 /* **************** */
 /* PACKAGES STYLING */
 /* **************** */
@@ -414,6 +425,11 @@ ul li {
   color: var(--p-global);
 }
 
+.package-html-styles span {
+  font-weight: bold;
+  color: var(--global-header);
+}
+
 /* **************** */
 /* PRICING STYLING */
 /* **************** */
@@ -433,7 +449,7 @@ ul li {
 }
 
 .pricing-card {
-  min-height: 850px;
+  /* min-height: 850px; */
   background-color: var(--package-cards);
   border-radius: 10px;
   padding: 1em;
@@ -442,6 +458,10 @@ ul li {
 
 .pricing-card h2 {
   color: var(--global-header);
+}
+
+.pricing-card h3 {
+  color: #f9c982;
 }
 
 /* ***************** */
@@ -540,6 +560,10 @@ ul li {
 
 .next-step-card h2 {
   color: var(--global-header);
+}
+
+.next-step-card h3 {
+  color: var(--logo-color);
 }
 
 .next-html {
@@ -666,6 +690,47 @@ ul li {
 
 a {
   color: #0377b5;
+}
+
+/* MODAL POP UP */
+
+.outer-modal-box {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: white;
+  padding: 20px;
+  z-index: 1000;
+  border-radius: 10px;
+}
+
+.modal-box-el {
+  color: black;
+  background: #fff;
+  opacity: 0.9;
+  -ms-filter: progid:DXImageTransform.Microsoft.Alpha(Opacity= 11); /* // for IE8 */
+  filter: alpha(opacity= 11); /* //for IE5-7 */
+  padding: 2em;
+  border-radius: 10px;
+  max-width: 500px;
+  width: 100%;
+  position: relative;
+}
+
+.close-modal-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  background-color: red;
+  padding: 1em;
+  width: 20px;
+  height: 20px;
+  border-radius: 10px;
+  position: absolute;
+  right: 20px;
+  cursor: pointer;
 }
 
 /* ********************* */
@@ -818,12 +883,6 @@ a {
 
 /* ********************* */
 /* ********************* */
-/* DESKTOP RESPONSIVENESS */
+/* MOBILE RESPONSIVENESS */
 /* ********************* */
 /* ********************* */
-
-/* MODAL POP UP */
-
-.modal-box-el {
-  color: white;
-}
