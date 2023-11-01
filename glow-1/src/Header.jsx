@@ -20,7 +20,6 @@ export default function Header({ isActive }) {
           This way, your website will exude a premium quality that matches the
           excellence of your social media content.
         </p>
-        <button className="header-el-btn">CTA</button>
       </div>
       <div className="inner-header-image-el">
         <img

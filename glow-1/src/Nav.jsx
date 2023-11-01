@@ -9,10 +9,16 @@ export default function Nav() {
       element.scrollIntoView({ behavior: "smooth" });
     }
   }
+
   const [isActive, setIsActive] = useState(false);
 
   function handleClick() {
     setIsActive(!isActive);
+  }
+
+  // Function to close the mobile menu and overlay
+  function closeMobileMenu() {
+    setIsActive(false);
   }
 
   return (
@@ -44,6 +50,30 @@ export default function Nav() {
           </button>
         </div>
       </div>
+      {isActive && (
+        <div className="mobile-overlay overlay-visible">
+          <div className="mobile-menu">
+            <button
+              className="nav-btn"
+              onClick={() => {
+                handleScrollToSection("linkedin-scroll");
+                closeMobileMenu(); // Close the mobile menu when the button is clicked
+              }}
+            >
+              LinkedIn Optimisation
+            </button>
+            <button
+              className="nav-btn"
+              onClick={() => {
+                handleScrollToSection("website-scroll");
+                closeMobileMenu(); // Close the mobile menu when the button is clicked
+              }}
+            >
+              Websites
+            </button>
+          </div>
+        </div>
+      )}
       <Toggle />
     </>
   );
