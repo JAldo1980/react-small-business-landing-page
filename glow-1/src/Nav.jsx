@@ -54,7 +54,7 @@ export default function Nav() {
         <div className="mobile-overlay overlay-visible">
           <div className="mobile-menu">
             <button
-              className="nav-btn"
+              className="nav-btn linkedin-btn"
               onClick={() => {
                 handleScrollToSection("linkedin-scroll");
                 closeMobileMenu(); // Close the mobile menu when the button is clicked
@@ -63,7 +63,7 @@ export default function Nav() {
               LinkedIn Optimisation
             </button>
             <button
-              className="nav-btn"
+              className="nav-btn web-btn"
               onClick={() => {
                 handleScrollToSection("website-scroll");
                 closeMobileMenu(); // Close the mobile menu when the button is clicked

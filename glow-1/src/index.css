@@ -257,8 +257,9 @@ h1 {
 
 .hamburger {
   display: block;
-  background-color: black;
-  padding: 1em;
+  background-color: #1d1f25;
+  padding: 0.5em;
+  border-radius: 10px;
 }
 
 .bar {
@@ -312,6 +313,8 @@ h1 {
 .mobile-menu {
   margin-top: 1em;
   display: flex;
+  flex-direction: column;
+  gap: 1em;
   justify-content: center;
   z-index: 1000; /* Adjust the z-index to make sure it's above the overlay */
 }
@@ -806,6 +809,10 @@ a {
   .toggle-flex {
     display: flex;
     justify-content: flex-end;
+  }
+
+  .mobile-overlay {
+    display: none;
   }
 
   /* HEADER */
