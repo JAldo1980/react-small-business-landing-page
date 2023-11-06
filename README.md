@@ -9,26 +9,32 @@ Built with REACT. A small business landing page. Focused on responsive design, S
 
 <p>Here is a list of some of the technologies employed:</p>
 
-React: The code is written using React, a popular JavaScript library for building user interfaces.
+<ul>
+<li>React: The code is written using React, a popular JavaScript library for building user interfaces.</li>
 
-useState Hook: The useState hook is used for managing state within a React component.
+<li>useState Hook: The useState hook is used for managing state within a React component.</li>
 
-JavaScript: The primary programming language used in the code.
+<li>JavaScript: The primary programming language used in the code.</li>
 
-JSX: JSX is used for rendering elements and components in React.
+<li>JSX: JSX is used for rendering elements and components in React.</li>
 
-React Components: Multiple custom React components are used, including Nav, Header, Services, LinkedInPricing, WebPricing, Why, Next, Newsletter, Footer, ServiceHead, PackageHead, NextHead, and OrderBtn.
+<li>React Components: Multiple custom React components are used, including Nav, Header, Services, LinkedInPricing, WebPricing, Why, Next, Newsletter, Footer, ServiceHead, PackageHead, NextHead, and OrderBtn.</li>
 
-Component Props: Props are used to pass data from parent components to child components.
+<li>Component Props: Props are used to pass data from parent components to child components.</li>
 
-Mapping Arrays: The map function is used to iterate through arrays and create lists of components.
+<li>Mapping Arrays: The map function is used to iterate through arrays and create lists of components.</li>
 
-React Strict Mode: <React.StrictMode> is used to highlight potential problems in my application during development.
+<li>React Strict Mode: <React.StrictMode> is used to highlight potential problems in my application during development.</li>
 
-CSS Classes: CSS classes are used for styling, as seen in class names like "package-grid" and "pricing-grid".
+<li>CSS Classes: CSS classes are used for styling, as seen in class names like "package-grid" and "pricing-grid".
+</li>
 
-State Management: The isActive state variable is managed using the useState hook.
+<li>State Management: The isActive state variable is managed using the useState hook.</li>
 
-Export/Import: The export and import statements are used to organise and reuse code across different files.
+<li>Export/Import: The export and import statements are used to organise and reuse code across different files.</li>
+
+</ul>
+
+
 
 
